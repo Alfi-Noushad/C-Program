@@ -1,4 +1,6 @@
-#include<stdio.h>                   //DOUBLY LINKED LIST
+// doubly 
+
+#include<stdio.h>                   
 #include<stdlib.h>
 struct node
 {
