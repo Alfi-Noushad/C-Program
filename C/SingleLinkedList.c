@@ -78,3 +78,44 @@ void main()
 					free(tmp);
 				}
 			break;
+			case 5: p=start;
+			while(p->link->link!=NULL)
+				p=p->link;
+			tmp=p->link;
+			printf("\nthe deleted element is %d",tmp->data);
+			p->link=NULL;
+			free(tmp);
+			break;
+			case 6:printf("\nenter the data after which item has to be deleted");
+			scanf("%d",&q);
+			p=start;
+			while(p!=NULL)
+			{
+				if(p->data==q)
+				{
+					tmp=p->link;
+					printf("\nThe deleted element is %d",tmp->data);
+					p->link=tmp->link;
+					free(tmp);
+				}
+				p=p->link;
+			}
+			break;
+			case 7:printf("\nDisplay\n");
+			if(start==NULL)
+				printf("\n The list is empty\n");
+			else 
+			{
+				p=start;
+				while(p!=NULL)
+				{
+					printf("%d\t",p->data);
+					p=p->link;
+				}
+			}
+			break;
+			case 8 : exit(1);
+			default : printf("Wrong choice");
+		}
+	}
+}
