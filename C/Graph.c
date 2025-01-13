@@ -139,4 +139,23 @@ void dfs(int s,int n)
 		if(vis[i]==0)
 			dfs(i,n);
 	}
-}
+ }
+   void push(int item)
+  {
+	if(top==19)
+		printf("\nStack Overflow");
+	else 
+		stack[++top]=item;
+  }
+
+  int pop()
+  {
+	int k;
+	if(top==-1)
+		return 0;
+	else
+	{
+		k=stack[top--];
+		return k;
+	}
+  }
