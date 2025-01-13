@@ -1,4 +1,4 @@
-//  gra
+//  graph
 
 #include<stdio.h>
 #include<stdlib.h>
