@@ -1,4 +1,4 @@
-//infix t
+//infix to
 
 #include <stdio.h>
 #include<string.h>
