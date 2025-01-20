@@ -1,4 +1,4 @@
-//po
+//polynomial
 
 #include<stdio.h>
 int main()
