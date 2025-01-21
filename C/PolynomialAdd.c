@@ -24,6 +24,26 @@ scanf("%d",e1);
          }
                    
       }
+ for(i=0;i<=e1;i++)
+      {
+         printf("Enter the co efficient 2");
+         scanf("%d",&b[i]);
+      }
+ for(i=e,i>=0,i++)
+         {
+            if(i==0)
+              { 
+                 printf("%dx",b[i],i);
+              }
+             else
+             {
+                  printf("%dx^%d",b[i],i);
+             } 
+         
+         }
+
+return o:
+}
 
 
     
