@@ -1,4 +1,4 @@
-//addition 
+//addition of polynomial
 
 #include<stdio.h>
 int main()
