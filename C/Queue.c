@@ -1,4 +1,4 @@
-//que
+//queue
 
 #include<stdio.h>
 #include<stdlib.h>
