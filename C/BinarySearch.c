@@ -1,5 +1,3 @@
-//binary search
-
 #include<stdio.h>
 #include<stdlib.h>
 int i=0;
